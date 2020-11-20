@@ -1,7 +1,6 @@
 package teletriagem;
 
 import javafx.application.Application;
-import static javafx.application.Application.launch;
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -24,21 +23,45 @@ int indice;
 lista = new String[3];
 lista[0] = "<iframe width=\"560\""
 + "height=\"315\""
-+ "src=\"https://www.youtube.com/embed/qjH42oXes1M\""
++ "src=\"https://www.youtube.com/watch?v=ea1VIZdkeTk\"" //status vermelho
 + "frameborder=\"0\" allow=\"accelerometer;"
 + "autoplay; encrypted-media; gyroscope;"
 + "picture-in-picture\" allowfullscreen></iframe>"
 + "";
 lista[1] = "<iframe width=\"560\""
 + "height=\"315\""
-+ "src=\"https://www.youtube.com/watch?v=uxT-Ee9byeA\""
++ "src=\"https://www.youtube.com/watch?v=m2EbeMLINqo\"" //status vermelho
 + "frameborder=\"0\" allow=\"accelerometer;"
 + "autoplay; encrypted-media; gyroscope;"
 + "picture-in-picture\" allowfullscreen></iframe>"
 + "";
 lista[2] = "<iframe width=\"560\""
 + "height=\"315\""
-+ "src=\"https://www.youtube.com/watch?v=rdcuOytxjKY\""
++ "src=\"https://www.youtube.com/watch?v=nDgXhusllVE\"" //status amarelo
++ "frameborder=\"0\" allow=\"accelerometer;"
++ "autoplay; encrypted-media; gyroscope;"
++ "picture-in-picture\" allowfullscreen></iframe>"
++ "";
+
+lista[3] = "<iframe width=\"560\""
++ "height=\"315\""
++ "src=\"https://www.youtube.com/watch?v=tPd_b5jIR5c\"" //status amarelo
++ "frameborder=\"0\" allow=\"accelerometer;"
++ "autoplay; encrypted-media; gyroscope;"
++ "picture-in-picture\" allowfullscreen></iframe>"
++ "";
+
+lista[4] = "<iframe width=\"560\""
++ "height=\"315\""
++ "src=\"https://www.youtube.com/watch?v=ERi4GGlwSIo\"" //status verde
++ "frameborder=\"0\" allow=\"accelerometer;"
++ "autoplay; encrypted-media; gyroscope;"
++ "picture-in-picture\" allowfullscreen></iframe>"
++ "";
+
+lista[5] = "<iframe width=\"560\""
++ "height=\"315\""
++ "src=\"https://www.youtube.com/watch?v=TCp_FA0CA4o\"" //status verde
 + "frameborder=\"0\" allow=\"accelerometer;"
 + "autoplay; encrypted-media; gyroscope;"
 + "picture-in-picture\" allowfullscreen></iframe>"
@@ -69,6 +92,3 @@ painel.getChildren().add(webVideo);
 }
 }
 
-/*public static void main(String[] args) {
-launch(args);
-}*/
