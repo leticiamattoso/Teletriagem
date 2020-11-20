@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.VerdeController">
+   <children>
+      <Label layoutX="127.0" layoutY="23.0" prefHeight="59.0" prefWidth="348.0" text="Status Emergencial é :" textFill="#529add">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="285.0" fitWidth="470.0" layoutX="72.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/verde.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="178.0" layoutY="220.0" prefHeight="27.0" prefWidth="276.0" text="VERDE, aguarde até 120 minutos" textFill="#fcf9f9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

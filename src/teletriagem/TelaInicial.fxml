@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="429.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.TelaInicialController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="86.0" layoutY="277.0" text="RG" />
+      <Label layoutX="55.0" layoutY="239.0" text="Endereço" />
+      <Label layoutX="74.0" layoutY="203.0" prefHeight="17.0" prefWidth="39.0" text="Idade" />
+      <Label layoutX="15.0" layoutY="162.0" text="Nome Completo" />
+      <Label layoutX="115.0" layoutY="57.0" prefHeight="59.0" prefWidth="348.0" text="Sistema de Triagem" textFill="#529add">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="113.0" layoutY="273.0" />
+      <TextField layoutX="113.0" layoutY="235.0" />
+      <TextField layoutX="113.0" layoutY="199.0" />
+      <TextField layoutX="113.0" layoutY="158.0" />
+      <SwingNode layoutX="10.0" layoutY="10.0" />
+      <Label fx:id="label1" layoutX="136.0" layoutY="130.0" minHeight="16" minWidth="69" />
+      <Button fx:id="button" layoutX="217.0" layoutY="343.0" onAction="#handleButtonAction" text="Gravar" textAlignment="CENTER" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="280.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/logo.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
