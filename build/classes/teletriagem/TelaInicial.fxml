@@ -15,24 +15,23 @@
       <Label layoutX="86.0" layoutY="277.0" text="RG" />
       <Label layoutX="55.0" layoutY="239.0" text="Endereço" />
       <Label layoutX="74.0" layoutY="203.0" prefHeight="17.0" prefWidth="39.0" text="Idade" />
-      <Label layoutX="15.0" layoutY="162.0" text="Nome Completo" />
+      <Label layoutX="70.0" layoutY="168.0" text="Nome" />
       <Label layoutX="115.0" layoutY="57.0" prefHeight="59.0" prefWidth="348.0" text="Sistema de Triagem" textFill="#529add">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <TextField layoutX="113.0" layoutY="273.0" />
-      <TextField layoutX="113.0" layoutY="235.0" />
-      <TextField layoutX="113.0" layoutY="199.0" />
-      <TextField layoutX="113.0" layoutY="158.0" />
+      <TextField layoutX="113.0" layoutY="164.0" onAction="#criaPaciente" promptText="Nome Completo" />
+      <TextField layoutX="113.0" layoutY="202.0" onAction="#criaPaciente" promptText="Idade" />
+      <TextField layoutX="113.0" layoutY="238.0" onAction="#criaPaciente" promptText="Insira Apenas  Rua/Av" />
+      <TextField layoutX="113.0" layoutY="273.0" onAction="#criaPaciente" promptText="Insira Apenas Nª" />
       <SwingNode layoutX="10.0" layoutY="10.0" />
       <Label fx:id="label1" layoutX="136.0" layoutY="130.0" minHeight="16" minWidth="69" />
       <Button fx:id="button" layoutX="217.0" layoutY="343.0" onAction="#handleButtonAction" text="INICIAR" textAlignment="CENTER" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="280.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@imagens/logo.png" />
+            <Image url="@../imagens/logo.png" />
          </image>
       </ImageView>
-      <Button layoutX="135.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Gravar" />
     </children>
 </AnchorPane>

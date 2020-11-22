@@ -1,5 +1,6 @@
 package teletriagem;
 
+import java.awt.TextField;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -21,21 +22,34 @@ import javafx.stage.Stage;
  */
 public class TelaInicialController implements Initializable {
 
+    String caminhoPacientes = "C:\\Users\\leticiamtt\\Documentos\\GiHub\\Teletriagem\\Pacientees\\pessoas.txt";
+
     @FXML
     private Label label;
+
+    @FXML
+    private TextField texto1;
+
+    @FXML
+    private TextField texto2;
+
+    @FXML
+    private TextField texto3;
+
+    @FXML
+    private TextField texto4;
 
     @FXML
     private void handleButtonAction(ActionEvent event) {
         try {
 
-            Parent root = FXMLLoader.load(getClass().getResource("ImagemVetorial"));
+            Parent root = FXMLLoader.load(getClass().getResource("ImagemController.fxml"));
             Stage stage = new Stage();
-            Scene scene = new Scene(root, 400, 240);
+            Scene scene = new Scene(root, 600, 450);
             stage.setScene(scene);
             stage.show();
 
         } catch (IOException e) {
-            e.printStackTrace();
         }
 
     }
@@ -45,12 +59,11 @@ public class TelaInicialController implements Initializable {
         BufferedWriter writter;
 
         try {
-            String caminhoPaciente = "Pacientes\\pacientes.txt";
-            file = new File(caminhoPaciente);
+            file = new File(caminhoPacientes);
             FileWriter fileWriter = new FileWriter(file, true);
             writter = new BufferedWriter(fileWriter);
 
-            //BufferedWriter append = writter.append(this.TextField.getText() );         
+            writter.append(this.texto1.getText() + ";" + this.texto2.getText() + ";" + this.texto3.getText() + ";" + this.texto4.getText() + ";");
             writter.close();
 
             System.out.println("Paciente cadastrado com sucesso");
@@ -61,14 +74,13 @@ public class TelaInicialController implements Initializable {
     }
 
     @FXML
-    void handleButtonAction2(ActionEvent event) {
-        criaPaciente();
-
+    void criaPaciente(ActionEvent event) {
+       
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+
     }
 
 }
