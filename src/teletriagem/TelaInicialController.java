@@ -9,12 +9,9 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
+import teletriagem.Teletriagem;
 
 /**
  *
@@ -41,17 +38,18 @@ public class TelaInicialController implements Initializable {
 
     @FXML
     private void handleButtonAction(ActionEvent event) {
-        try {
+        /*try {
 
-            Parent root = FXMLLoader.load(getClass().getResource("ImagemController.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("ImagemVetorial.java"));
             Stage stage = new Stage();
             Scene scene = new Scene(root, 600, 450);
             stage.setScene(scene);
             stage.show();
 
         } catch (IOException e) {
-        }
+        }*/
 
+        Teletriagem.addPainel();
     }
 
     public void criaPaciente() {
@@ -75,7 +73,7 @@ public class TelaInicialController implements Initializable {
 
     @FXML
     void criaPaciente(ActionEvent event) {
-       
+
     }
 
     @Override

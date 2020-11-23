@@ -8,18 +8,4 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.ImagemController">
-   <children>
-      <Label layoutX="150.0" layoutY="-3.0" text="Sintomas na área:" textFill="#185ce4">
-         <font>
-            <Font size="37.0" />
-         </font>
-      </Label>
-      <Button defaultButton="true" layoutX="68.0" layoutY="97.0" mnemonicParsing="false" text="Button" />
-      <ImageView fitHeight="359.0" fitWidth="552.0" layoutX="41.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/corpo.jpg" />
-         </image>
-      </ImageView>
-   </children>
-</AnchorPane>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.ImagemController" />

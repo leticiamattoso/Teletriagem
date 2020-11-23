@@ -8,27 +8,4 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.ImagemController">
-   <children>
-      <Label layoutX="154.0" layoutY="20.0" text="Sintomas na área:" textFill="#185ce4">
-         <font>
-            <Font size="37.0" />
-         </font>
-      </Label>
-      <Button layoutX="285.0" layoutY="185.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="35.0" text="Button" />
-      <Button layoutX="304.0" layoutY="224.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="43.0" text="Button" />
-      <Button layoutX="279.0" layoutY="215.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="24.0" text="Button" />
-      <Button layoutX="257.0" layoutY="271.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="Button" />
-      <Button layoutX="309.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="Button" />
-      <Button layoutX="307.0" layoutY="338.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="Button" />
-      <Button layoutX="283.0" layoutY="299.0" mnemonicParsing="false" prefHeight="11.0" prefWidth="24.0" text="Button" />
-      <Button layoutX="250.0" layoutY="321.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="59.0" text="Button" />
-      <Button layoutX="249.0" layoutY="346.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" text="Button" />
-      <Button layoutX="277.0" layoutY="377.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="43.0" text="Button" />
-      <ImageView fitHeight="359.0" fitWidth="552.0" layoutX="36.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/corpo.jpg" />
-         </image>
-      </ImageView>
-   </children>
-</AnchorPane>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teletriagem.ImagemController" />
